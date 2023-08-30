@@ -4,31 +4,47 @@
     <title>ERGpy - Electroretinogram Analysis Software</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0e4d7;
+            color: #333;
+            line-height: 1.6;
         }
         
-        h1 {
-            color: #333;
+        h1, h2 {
+            font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+            color: #990000;
+        }
+        
+        h2 {
+            border-bottom: 2px solid #990000;
+            padding-bottom: 5px;
+            margin-top: 30px;
         }
         
         p {
-            line-height: 1.6;
             margin-bottom: 15px;
         }
         
         ul {
-            margin-left: 20px;
+            list-style: none;
+            padding-left: 20px;
         }
         
-        li {
-            margin-bottom: 5px;
+        li:before {
+            content: "\2022";
+            color: #990000;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
         }
         
         .download-button {
             display: inline-block;
             padding: 10px 20px;
-            background-color: #333;
+            background-color: #990000;
             color: #fff;
             text-decoration: none;
             border-radius: 4px;
@@ -36,36 +52,50 @@
         }
 
         .download-button:hover {
-            background-color: #555;
+            background-color: #b24700;
+        }
+        
+        footer {
+            background-color: #990000;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to ERGpy - Electroretinogram Analysis Software</h1>
+    <h1 style="text-align: center; padding: 30px 0;">ERGpy - Electroretinogram Analysis Software</h1>
     
-    <p>ERGpy is an automated and open-source software designed for the analysis of electroretinogram (ERG) signals. It leverages the power of <a href="https://www.scipy.org/" target="_blank">SciPy</a> for signal processing and <a href="https://www.riverbankcomputing.com/software/pyqt/" target="_blank">PyQt5</a> for its graphical user interface (GUI).</p>
-    
-    <h2>Features</h2>
-    <ul>
-        <li>Automated processing of electroretinogram signals</li>
-        <li>Customizable analysis options:</li>
+    <div style="margin: 0 auto; max-width: 800px; padding: 0 20px;">
+        <p style="text-align: center;">Unlock the Secrets of ERG Signals with ERGpy!</p>
+        
+        <h2>Unveiling Ancient Insights</h2>
+        <p>Step into the world of ERGpy, an automated and open-source software crafted for the analysis of electroretinogram (ERG) signals. Guided by the spirit of ancient wisdom, ERGpy combines the power of <a href="https://www.scipy.org/" target="_blank">SciPy</a> for signal processing and <a href="https://www.riverbankcomputing.com/software/pyqt/" target="_blank">PyQt5</a> for its captivating graphical user interface.</p>
+        
+        <h2>Timeless Features</h2>
         <ul>
-            <li>Define start and end regions of the signal to analyze (t<sub>0</sub> to t<sub>1</sub>)</li>
-            <li>Apply Butterworth filters for:</li>
+            <li>Automated ERG signal processing, a modern tribute to the art of ancient wisdom.</li>
+            <li>Invoke the spirit of customization with:</li>
             <ul>
-                <li>Low-pass, band-pass filtering for A, B, and C waves</li>
-                <li>Band-pass and high-pass filtering for oscillatory potentials (OPs)</li>
+                <li>Customizable start and end regions of the signal (t<sub>0</sub> to t<sub>1</sub>).</li>
+                <li>Magnificent Butterworth filters:</li>
+                <ul>
+                    <li>Low-pass and band-pass for A, B, and C waves.</li>
+                    <li>Band-pass and high-pass for resonant Oscillatory Potentials (OPs).</li>
+                </ul>
             </ul>
+            <li>Experience a user-friendly interface.</li>
         </ul>
-        <li>User-friendly graphical interface built with PyQt5</li>
-    </ul>
-    
-    <h2>Download ERGpy</h2>
-    <p>To get started with ERGpy, you can download the software from our GitHub repository:</p>
-    <a class="download-button" href="https://github.com/ERGpy/ERGpy" target="_blank">Download ERGpy</a>
+        
+        <h2>Embark on Your Journey</h2>
+        <p>To embark on your journey of discovery with ERGpy, unleash the essence of power by <a class="download-button" href="https://github.com/your-username/ergpy" target="_blank">downloading ERGpy</a> from the GitHub repository.</p>
+    </div>
     
     <footer>
-        <p>&copy; 2023 ERGpy Project</p>
+        <p>&copy; 2023 ERGpy OSS LTD</p>
     </footer>
 </body>
 </html>
